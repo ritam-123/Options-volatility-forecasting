@@ -5,7 +5,7 @@ import sys
 import os
 import yfinance as yf
 
-# Add local module path for Black-Scholes
+# Adding local module path for Black-Scholes
 sys.path.append(os.path.dirname(__file__))
 from black_scholes import black_scholes_calls, black_scholes_puts
 
